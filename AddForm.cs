@@ -46,7 +46,7 @@ namespace Sample2_WindowsFormsApp
                 DbContext.Product.Add(products.First());
                 DbContext.SaveChanges();
                 RefreshForm();
-                MessageBox.Show("Dodano");
+                MessageBox.Show("Added");
             }
             catch (DbEntityValidationException dbExc)
             {
